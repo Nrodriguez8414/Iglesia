@@ -1005,10 +1005,10 @@
                     foto2 += 2;
 
                     img1 = document.getElementById(album).src =
-                        "http://localhost/Prueba/images/" + album + "/" + foto + ".jpeg";
+                        "images/" + album + "/" + foto + ".jpeg";
 
                     img2 = document.getElementById(album + "2").src =
-                        "http://localhost/Prueba/images/" + album + "/" + foto2 + ".jpeg";
+                        "images/" + album + "/" + foto2 + ".jpeg";
 
                     console.log(foto);
                     console.log(foto2);
@@ -1016,10 +1016,10 @@
                     foto = 1;
                     foto2 = 2;
                     img1 = document.getElementById(album).src =
-                        "http://localhost/Prueba/images/" + album + "/" + foto + ".jpeg";
+                        "images/" + album + "/" + foto + ".jpeg";
 
                     img2 = document.getElementById(album + "2").src =
-                        "http://localhost/Prueba/images/" + album + "/" + foto2 + ".jpeg";
+                        "images/" + album + "/" + foto2 + ".jpeg";
                     console.log("we done");
                 }
             }
@@ -1030,10 +1030,10 @@
                     foto2 = total;
 
                     img1 = document.getElementById(album).src =
-                        "http://localhost/Prueba/images/" + album + "/" + foto + ".jpeg";
+                        "images/" + album + "/" + foto + ".jpeg";
 
                     img2 = document.getElementById(album + "2").src =
-                        "http://localhost/Prueba/images/" + album + "/" + foto2 + ".jpeg";
+                        "images/" + album + "/" + foto2 + ".jpeg";
 
                     console.log(foto);
                     console.log(foto2);
@@ -1041,10 +1041,10 @@
                     foto -= 2;
                     foto2 -= 2;
                     img1 = document.getElementById(album).src =
-                        "http://localhost/Prueba/images/" + album + "/" + foto + ".jpeg";
+                        "images/" + album + "/" + foto + ".jpeg";
 
                     img2 = document.getElementById(album + "2").src =
-                        "http://localhost/Prueba/images/" + album + "/" + foto2 + ".jpeg";
+                        "images/" + album + "/" + foto2 + ".jpeg";
                     console.log("we done");
                 }
             }
