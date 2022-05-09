@@ -55,3 +55,10 @@ function imgBackward(album, cantidad, total) {
     console.log("we done");
   }
 }
+function link(id) {
+  document.getElementById(id).scrollIntoView({
+    behavior: "smooth",
+  });
+  console.log(id);
+}
+
