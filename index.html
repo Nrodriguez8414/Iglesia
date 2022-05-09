@@ -2,8 +2,7 @@
 <html lang="en">
 
 <head>
-
-       <!-- Required meta tags -->
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
@@ -11,12 +10,12 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
-   
+
+
 
 
     <title>Iglesia Cristiana Misionera Monte Sion</title>
@@ -25,34 +24,36 @@
 </head>
 
 
-<body>
-<!-- Navigation -->
-<nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="x"><img src=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#index">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#nosotros">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#servicios">Servicios</a>
-                </li>
-                <a class="nav-link" href="#contacto">Contacto</a>
-                </li>
 
-            </ul>
-       </div>
-       </div>
-       
-</nav>
+<body>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="x"><img src=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a onclick="toTop()" class="nav-link" href="#index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="link('nosotros')" class="nav-link" href="#notros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="link('servicios')" class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <a onclick="link('contactos')" class="nav-link" href="#contactos">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
 
@@ -130,25 +131,26 @@
                 </p>
             </div>
             <div class="col-lg-6">
+
                 <img src="images/inicio.jpeg" class="img-fluid">
             </div>
         </div>
-        <hr class="my-4">
+        <hr id="nosotros" class="my-4">
     </div>
 
 
     <!--- Nosotros -->
-    <!--- Welcome Section -->
-
     <!--- Fixed background -->
     <figure>
         <div class="fixed-wrap">
             <div id="fixed">
-                <h1 class="display-4 text-center"><a id="nosotros">Nosotros</a></h1>
+
+                <h1 class="display-1 text-center">Nosotros</h1>
+
             </div>
         </div>
     </figure>
-    <hr class="my-4">
+
     <div class="container-fluid padding">
         <div class="row welcome text-center">
 
@@ -158,7 +160,7 @@
             </div>
         </div>
     </div>
-    <hr class="my-4">
+
     <!--- Two Column Section -->
     <div class="container-fluid padding">
         <div class="row padding">
@@ -178,7 +180,6 @@
                     ¡Extendiendo el reino de Dios en la tierra mediante la gran comisión hasta que Cristo regrese otra vez!
                 </p>
                 <br>
-                <a href="contacto.php" onclick="myFunction()" class="btn btn-outline-secondary">Contactar</a>
             </div>
             <div class="col-lg-6">
 
@@ -225,7 +226,7 @@
             <div class="col-12">
                 <h1 class="display-4">NUESTRA FAMILIA</h1>
             </div>
-            <hr>
+
         </div>
     </div>
 
@@ -356,7 +357,6 @@
             </div>
         </div>
     </div>
-    <hr>
     <div class="container-fluid padding">
         <div class="row justify-content-md-center">
             <div class="col-lg-5 ">
@@ -366,7 +366,7 @@
                 <img src="images/actividades/actividades (5).jpeg" class="img-fluid">
             </div>
         </div>
-        <hr class="my-4">
+
     </div>
 
     <div class="container-fluid padding">
@@ -378,19 +378,18 @@
                 <img src="images/actividades/actividades (7).jpeg" class="img-fluid">
             </div>
         </div>
-        <hr class="my-4">
     </div>
-
+    <hr id="servicios" class="my-4">
     <!--- Servicios-->
     <figure>
         <div class="fixed-wrap">
             <div id="fixed">
-                <h1 class="display-4 text-center"><a id="servicios">Servicios</a>
+                <h1 class="display-1 text-center"> Servicios</h1>
             </div>
         </div>
     </figure>
 
-    <hr class="my-4">
+
 
     <!--- Three columns-->
 
@@ -407,7 +406,7 @@
                 <img src="images/twocolumns.jpg" class="img-fluid">
             </div>
         </div>
-        <hr class="my-4">
+
     </div>
 
     <div class="container-fluid padding">
@@ -433,7 +432,7 @@
             </div>
 
         </div>
-        <hr class="my-4">
+
     </div>
 
     <div class="container-fluid padding">
@@ -458,8 +457,12 @@
             <div class="col-12">
                 <p>
                 <h1 class="display-4">Evangelizacion</p>
-
                 </h1>
+                <p>
+                <h3 class="text-left">Mateo 5:15-16</h3><br>
+                Ni se enciende una lámpara para cubrirla con un cajón. Por el contrario, se pone en la repisa para
+                que alumbre a todos los que están en la casa. Hagan brillar su luz delante de todos, para que ellos puedan
+                ver las buenas obras de ustedes y alaben al Padre que está en el cielo.
                 </P>
             </div>
 
@@ -481,20 +484,22 @@
 
         </div>
     </div>
-
+    <hr>
     <div class="container-fluid padding">
         <div class="row welcome text-center">
             <div class="col-12">
                 <p>
                 <h1 class="display-4">Dia de las Madres</p>
-
                 </h1>
                 </P>
+                <p>
+                <h3 class="text-left">Proverbios 9:11</h3><br>
+                Por mí aumentarán tus días; muchos años de vida te serán añadidos. (Proverbios 9:11)
+                </p>
             </div>
-
         </div>
     </div>
-    <hr>
+
     <div class="container-fluid padding">
         <div class="row justify-content-md-center">
             <div class="col-lg-6 text-left">
@@ -510,6 +515,7 @@
 
         </div>
     </div>
+    <hr>
     <div class="container-fluid padding">
         <div class="row welcome text-center">
             <div class="col-12">
@@ -541,15 +547,19 @@
 
         </div>
     </div>
+    <hr>
     <div class="container-fluid padding">
         <div class="row welcome text-center">
             <div class="col-12">
                 <h1 class="display-4">Semana Santa</h1>
+                <p>
+                <h3 class="text-left">Mateo 26:26-28 </h3><br>
+                “Mientras comían, Jesús tomó pan, y habiéndolo bendecido, lo partió, y dándoselo a los discípulos, dijo: “Tomen, coman; esto es Mi cuerpo.” Y tomando una copa, y habiendo dado gracias, se la dio, diciendo: “Beban todos de ella; porque esto es Mi sangre del nuevo pacto, que es derramada por muchos para el perdón de los pecados.”</p>
             </div>
 
         </div>
     </div>
-    <hr>
+
     <div class="container-fluid padding">
         <div class="row justify-content-md-center">
             <div class="col-lg-6 text-left">
@@ -565,7 +575,7 @@
 
         </div>
     </div>
-
+    <hr>
     <div class="container-fluid padding">
         <div class="row welcome text-center">
             <div class="col-12">
@@ -573,12 +583,17 @@
                 <h1 class="display-4">Actividad y cena para los deambulantes.<br>
                     Centro posada San Felipe Arecibo.
                 </h1>
+                </p>
+                <p>
+                <h3 class="text-left">Gálatas 5:13–14</h3><br>
+                13 Porque vosotros, hermanos, a libertad habéis sido llamados; solamente que no uséis la libertad como ocasión para la carne, sino servíos por amor los unos a los otros.
 
+                14 Porque toda la ley en esta sola palabra se cumple: Amarás a tu prójimo como a ti mismo.</p>
             </div>
 
         </div>
     </div>
-    <hr>
+
     <div class="container-fluid padding">
         <div class="row justify-content-md-center">
             <div class="col-lg-6 text-left">
@@ -594,16 +609,19 @@
 
         </div>
     </div>
+    <hr>
     <div class="container-fluid padding">
         <div class="row welcome text-center">
             <div class="col-12">
                 <p>
                 <h1 class="display-4">Culto de caballeros</p>
-
                 </h1>
+                <p>
+                <h3 class="text-left">Proverbios 3:13-14</h3><br>
+                Dichoso el que halla sabiduría, el que adquiere inteligencia.
+                Porque ella es de más provecho que la plata y rinde más ganancias que el oro.
                 </P>
             </div>
-
         </div>
     </div>
 
@@ -622,34 +640,29 @@
 
         </div>
     </div>
-
+    <hr id="contactos" class="my-4">
 
     <!--- Contacto-->
 
     <figure>
         <div class="fixed-wrap">
             <div id="fixed">
-                <h1 class="display-4 text-center"><a id="contacto">Contacto</a>
+                <h1 class="display-1 text-center">Contacto</h1>
             </div>
         </div>
     </figure>
 
-    <hr class="my-4">
 
     <div class="row welcomeContact text-center">
         <!--Section heading-->
-
-        <hr>
         <div class="col-12">
-            <p class="lead">Ad reprehenderit enim sit incididunt exercitation voluptate do aliquip exercitation voluptate. Labore voluptate consequat non tempor reprehenderit sunt cillum aliquip culpa ad incididunt dolor ea velit. Velit officia officia ea do ullamco. Mollit elit amet ipsum Lorem irure sunt ad voluptate aliqua non cillum est elit.
-
-                Irure id ut reprehenderit esse amet ex duis exercitation minim minim qui. Dolore et labore minim aute. Nostrud nisi incididunt ea reprehenderit consequat irure sunt consectetur cillum magna aliquip eu aute. Anim veniam enim amet minim tempor ea occaecat duis ut Lorem tempor ut mollit.
-
-                Ipsum pariatur cillum eu laboris dolore in excepteur incididunt. Proident nisi veniam laboris officia commodo eiusmod excepteur. Enim quis laborum quis fugiat ullamco est Lorem. Est enim reprehenderit pariatur fugiat elit aute duis mollit fugiat est tempor.
+            <p class="lead">
+            <h3 class="text-left">Salmos 63:1 </h3> <br>
+            Dios mío, ¡tú eres mi Dios! Yo te buscaré de madrugada. <br>Mi alma desfallece de sed por ti; mi ser entero te busca con ansias, en terrenos secos e inhóspitos, sin agua (Sal 63:1).
             </p>
         </div>
     </div>
-    <hr class="my-4">
+
 
 
 
@@ -677,42 +690,46 @@
             </div>
 
         </div>
-        <hr class="my-4">
+
     </div>
 
 
+
+    <!--- Footer --->
+
+
 </body>
- <!--- Footer --->
-    <footer>
+<footer>
 
-        <div class="container-fluid padding">
-            <div class="row text-center">
-                <div class="col-md-6">
-                    <img src="https://i0.wp.com/movicm.org/wp-content/uploads/elementor/thumbs/Asset-15-8-pjzk8ftbsmsp142mir4abu8ic8ec4sgfjuj2nii7l4.png?w=1200&ssl=1">
-                    <hr class="light">
-                    <p>787-414-8996</p>
-                    <p>Rolandorodri1976@gmail.com</p>
-                    <p>Carr 2 Puerto Rico</p>
-                    <p>Camuy, PR 00627</p>
-                </div>
-                <div class="col-md-6">
-                    <a href="https://www.facebook.com/Iglesia-Cristiana-Misionera-Monte-Sion-Camuy-1896832357220376">
-                        <h2>Visitanos</h2>
-                        *
-                        <h4>Horarios regulares
 
-                        </h4>
-                    </a>
-                    <hr class="light">
-                    <p>Martes y Jueves: </p>
-                    <p>Domingo:</p>
-                </div>
-                <div class="col-12">
-                    <h5>&copy; Iglesia de Rolando</h5>
-                </div>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <img src="https://i0.wp.com/movicm.org/wp-content/uploads/elementor/thumbs/Asset-15-8-pjzk8ftbsmsp142mir4abu8ic8ec4sgfjuj2nii7l4.png?w=1200&ssl=1">
+                <hr class="light">
+                <p>787-414-8996</p>
+                <p>Rolandorodri1976@gmail.com</p>
+                <p>Carr 2 Puerto Rico</p>
+                <p>Camuy, PR 00627</p>
+            </div>
+            <div class="col-md-6">
+                <a href="https://www.facebook.com/Iglesia-Cristiana-Misionera-Monte-Sion-Camuy-1896832357220376">
+                    <h2>Visitanos</h2>
+                    *
+                    <h4>Horarios regulares
+
+                    </h4>
+                </a>
+                <hr class="light">
+                <p>Martes y Jueves: </p>
+                <p>Domingo:</p>
+            </div>
+            <div class="col-12">
+                <h5>&copy; Iglesia de Rolando</h5>
             </div>
         </div>
-        <script src="app.js"></script>
-        <button onclick="toTop()" class="btn">^</button>
-    </footer>
+    </div>
+    <script src="app.js"></script>
+</footer>
+
 </html>
