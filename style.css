@@ -172,6 +172,10 @@ hr {
 .display-4 {
   text-shadow: 4px 4px gold;
 }
+.display-1 {
+  text-shadow: 4px 4px gold;
+  text-decoration: underline;
+}
 
 @media (max-width: 992px) {
   .social a {
@@ -201,8 +205,12 @@ hr {
   }
 
   .display-4 {
-    font-size: 200%;
+    font-size: 225%;
     text-shadow: 0 0 1.25px 1.25px #3f3f3f;
+  }
+  .display-1 {
+    font-size: 200%;
+    text-shadow: 4px 4px gold;
   }
 
   .card-img-top {
@@ -242,6 +250,10 @@ hr {
   .display-4 {
     font-size: 200%;
     text-shadow: 1.25px 1.25px #3f3f3f;
+  }
+  .display-1 {
+    font-size: 200%;
+    text-shadow: 4px 4px gold;
   }
 
   .card-img-top {
